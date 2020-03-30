@@ -85,7 +85,7 @@ function createBalloonsObj(num) {
     for (var i = 0; i < num; i++) {
         balloonObj = {
             id: 1,
-            bottom: 25,
+            bottom: 325,
             speed: getRndInteger(2, 9)
         }
         gballoons.push(balloonObj);
